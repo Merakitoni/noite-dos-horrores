@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Fantasma do casarão</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenário-passo0.png" alt="">
+            <p>Você foi chamado para soluçionar um mistério fantasmagórico em uma casa abandonada.
+                <button class="btn-proximo" data-proximo="1">Entrar na casa.</button>
+                <button class="btn-proximo" data-proximo="2">não aceitar a missão.</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Ao entrar entrar na casa vc avista uma figura sombria correndo pelos corredores da casa.</p>
+            <button class="btn-proximo" data-proximo="3">Correr atrás do vulto.</button>
+            <button class="btn-proximo" data-proximo="4">Procurar uma lanterna.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você recusa a ligação por achar que é trote. Fim da história.</p>
+            <button class="btn-proximo" data-proximo="0">Fim da história.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Ao pegar a lanterna e perseguir o vulto vc encontra uma porta.</p>
+            <button class="btn-proximo" data-proximo="5">Abrir a porta.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você escuta gritos fortes e objetos começam a cair no chão.</p>
+            <button class="btn-proximo" data-proximo="0">Sair do porão.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ao andar pela casa, uma figura sombria aparece no espelho atrás de você.</p>
+            <button class="btn-proximo" data-proximo="6">Gritar.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O grito ecoa, mas a figura não se move.</p>
+            <button class="btn-proximo" data-proximo="7">Correr para a porta.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você corre, mas a porta se fecha antes de você chegar.</p>
+            <button class="btn-proximo" data-proximo="8">Tentar abrir a porta.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>A porta não abre. Você sente uma presença atrás de você.</p>
+            <button class="btn-proximo" data-proximo="9">Virar-se.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A figura se aproxima e você sente uma onda de frio.</p>
+            <button class="btn-proximo" data-proximo="10">Lutar contra a figura.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você empurra a figura, mas ela não se move.</p>
+            <button class="btn-proximo" data-proximo="11">Usar a magia.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>O poder te envolve, mas você percebe que está se tornando poeira.</p>
+            <button class="btn-proximo" data-proximo="12">Aceitar o destino.</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/cenário-passo12.png" alt="">
+            <p>Você recita as magias antigas e a figura desaparece em uma nuvem de fumaça.</p>
+            <button class="btn-proximo" data-proximo="12">Fim da História.</button>
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
